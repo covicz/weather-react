@@ -1,38 +1,71 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  margin: 45px 140px 20px;
+}
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 10px 125px;
+}
+.humid,
+.windspeed {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 10px 125px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search,
+.btn-info {
+  color: #d9f2ff;
+  margin: 5px 495px;
+  width: 100px;
+}
+.search {
+  margin-top: -90px;
+}
+.main-image {
+  width: 125px;
+  margin: -10px 250px;
+}
+.main-temp {
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 45px;
+  margin-top: 20px;
+  margin-left: -250px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weather-week,
+.weather-days,
+.temp-days {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.weatherapp {
+  border: 5px solid #d9f2ff;
+  border-radius: 20px;
+  padding: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  width: 860px;
+  margin: 45px auto;
+}
+.name {
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 90px;
+  padding: 150px;
 }
